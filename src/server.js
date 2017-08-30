@@ -1,14 +1,14 @@
-const express = require('express');
-const expressGraphQL = require('express-graphql');
-const schema = require('./schema');
+import express from 'express';
+import expressGraphQL from 'express-graphql';
+import schema from './schema';
 
 const app = express();
 
 app.use('/graphql', expressGraphQL({
-  schema: schema,
+  schema,
   graphiql: true,
-}))
+}));
 
 app.listen(4000, () => {
   console.log('the server is running on port: 4000...');
-})
+});
