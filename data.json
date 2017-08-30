@@ -1,0 +1,22 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "beace",
+      "age": 23,
+      "email": "beacelee@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Beace Lee3",
+      "age": 22,
+      "email": "122322222@qq.com"
+    },
+    {
+      "name": "Jerry hou",
+      "email": "Jerry@gmail.com",
+      "age": 30,
+      "id": "HJAOYgXK-"
+    }
+  ]
+}
